@@ -31,10 +31,10 @@
 }
 
 h1{
-    color: #FFE1B0;
+    color: #843333;
     text-align: center;
     font-size: 50px;
-    background-color: #662831;
+    background-image:linear-gradient(to right,#FFE1B0, rgb(134, 52, 52));
     margin: 5px;
     padding: 5px;
     font-family: "Joan";
@@ -341,7 +341,7 @@ h2{
     font-family: "Joan";
     text-align: center;
     margin: 20px;
-    background-color: #FFE1B0;
+    background: linear-gradient(to right, #FFE1B0 0%, #FFAF51 50%, #9D423E 100%);
 }
 
 .video{
