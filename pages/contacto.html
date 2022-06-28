@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../assets/img/l-fAVICON.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../assets/img/book.png" alt="">
+        </div>
+        <ul>
+        <a href="../index.html">Inicio//</a>
+        <a href="./genero.html">Generos//</a>
+        <a href="./calendario.html">Calendario//</a>
+        <a href="./quienesSomos.html">Quienes Somos//</a>
+        <a href="./contacto.html">Contacto//</a>
+        </ul>
+        <div class="redlog">
+            <img src="../assets/img/fbicon.jpg" alt="">
+            <img src="../assets/img/instagramicon.jpg" alt="">
+            <img src="../assets/img/twittericon.jpg" alt="">
+        </div>
+    </nav>
+
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <main>
+        <form class="form" action="contactos.php" method="post">
+            <fieldset>
+                <legend>Comparte tu opinion con Nosotros</legend>
+
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+                <input type="email" name="mail" id="mail" placeholder="Ingrese su Mail" required>
+                <textarea name="comentario" id="comentario" cols="30" rows="10">Ingrese su comentario</textarea>
+            
+                <div>
+                <label for="miembro">Miembro</label>
+                <input type="radio" name="miembro" id="miembro" value="si">
+                <label for="no miembro">No Miembro</label>
+                <input type="radio" name="no miembro" id="no miembro" value="no">                 
+                </div>
+                <hr>
+                <p>Ultima Categoria Leida</p>
+                <select name="Ultima Categoria Leída" id="">
+                <option value="">Terror</option>
+                <option value="">Comedia</option>
+                <option value="R">Romance</option>
+                <option value="CF">Ciencia Ficcion</option>
+                <option value="IoJ">Infantil/Juvenil</option>
+                <option value="Otros">Otros</option>
+                </select>
+                <hr>
+            
+
+
+                <div>
+                <label for="Acepto">Acepto Terminos y Condiciones</label>
+                <input type="checkbox" name="Acepto" id="acepto" value="si" required>
+                </div>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+
+            </fieldset>
+        </form>
+    </main>
+
+    <aside>
+
+    </aside>
+
+    <footer id="elPie">
+        <h5>©2022 Mayinka, todos los derechos reservados.</h5>
+    </footer>
+
+</body>
+</html>
